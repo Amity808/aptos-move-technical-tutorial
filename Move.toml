@@ -1,0 +1,18 @@
+[package]
+name = "waste_manager"
+version = "1.0.0"
+authors = []
+
+[addresses]
+waste_manager = "f32c57475c9c4f083b3ba81e6c03383810fba366af6ca91b74c15d95f9139c41"
+
+# [dev-addresses]
+# waste_manager = "f32c57475c9c4f083b3ba81e6c03383810fba366af6ca91b74c15d95f9139c41"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+# [dev-dependencies.AptosFramework]
